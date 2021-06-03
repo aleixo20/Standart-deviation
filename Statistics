@@ -1,0 +1,18 @@
+import pandas as pd
+import numpy as np
+
+df = (pd.read_csv('dynamics.csv', header=0, nrows=307))
+
+df.median()
+df.mean()
+df.std()
+for i in df.median():
+    print('median', df.median())
+
+for i in df.mean():
+    print('mean', df.mean())
+
+for i in df.std():
+    print('Standart deviation', df.std())
+
+write.save()
